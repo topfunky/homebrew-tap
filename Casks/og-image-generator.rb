@@ -3,7 +3,7 @@ cask "og-image-generator" do
   name "og-image-generator"
   desc "Generate Open Graph images from the command line"
   homepage "https://github.com/topfunky/og-image-generator-go"
-  version "0.0.2"
+  version "0.0.3"
 
   livecheck do
     skip "Auto-generated on release."
@@ -15,12 +15,12 @@ cask "og-image-generator" do
     on_intel do
       url "https://github.com/topfunky/og-image-generator-go/releases/download/v#{version}/og-image-generator_#{version}_darwin_amd64.tar.gz",
         verified: "github.com/topfunky/og-image-generator-go"
-      sha256 "ab3f38ccfc76919fa358e3cd34cdc4c684a2090a02544df86636b069b55dc107"
+      sha256 "8c346c17d37d3a3ca793d06aca1435ea77b8911558da19f125cb8f69fdb28456"
     end
     on_arm do
       url "https://github.com/topfunky/og-image-generator-go/releases/download/v#{version}/og-image-generator_#{version}_darwin_arm64.tar.gz",
         verified: "github.com/topfunky/og-image-generator-go"
-      sha256 "21db02f9c7822d3d6f6a92ef42e9178905833771d25a077a44979678694e50c9"
+      sha256 "0361b0d37f07ff223c961927854223029c4763d737b8beec14e4d733514fafbb"
     end
   end
 
@@ -28,12 +28,12 @@ cask "og-image-generator" do
     on_intel do
       url "https://github.com/topfunky/og-image-generator-go/releases/download/v#{version}/og-image-generator_#{version}_linux_amd64.tar.gz",
         verified: "github.com/topfunky/og-image-generator-go"
-      sha256 "7769e8e34bb7284d3b32a9c304366543fcc579cabfd431a2c3bf484bbefeab9f"
+      sha256 "c695e49e6c78c296c601217ad6569e8873310b00b08d7c8a33d6ec62ac183bc1"
     end
     on_arm do
       url "https://github.com/topfunky/og-image-generator-go/releases/download/v#{version}/og-image-generator_#{version}_linux_arm64.tar.gz",
         verified: "github.com/topfunky/og-image-generator-go"
-      sha256 "996427b3f8cceb37c4f6ad355e5393bad22eaada122d96370f205815e658dfd2"
+      sha256 "89b35e0f9b6d599a06820c39205f0442985e4047dbe29439615625b29e9151ca"
     end
   end
 
