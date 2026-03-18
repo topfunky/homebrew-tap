@@ -3,7 +3,7 @@ cask "countdown" do
   name "countdown"
   desc "CLI countdown timer with spinner animation"
   homepage "https://github.com/topfunky/countdown"
-  version "0.0.9"
+  version "0.0.10"
 
   livecheck do
     skip "Auto-generated on release."
@@ -15,12 +15,12 @@ cask "countdown" do
     on_intel do
       url "https://github.com/topfunky/countdown/releases/download/v#{version}/countdown_#{version}_darwin_amd64.tar.gz",
         verified: "github.com/topfunky/countdown"
-      sha256 "f10651222dc374c2633b0b9fcadba40ea138b8d325ce75f8cdd8e4734ed3df36"
+      sha256 "3dd2be32e668f5d7e67d3d338aa7ec29e47e3d2930b7364e08176b133e73882b"
     end
     on_arm do
       url "https://github.com/topfunky/countdown/releases/download/v#{version}/countdown_#{version}_darwin_arm64.tar.gz",
         verified: "github.com/topfunky/countdown"
-      sha256 "ced336b4935b1fc37f9111b1ac1ea0e23ac65098777bc121f6653e8853a5d0f2"
+      sha256 "be1fe7438161980edde28852b7762725717f849e2e49119fd535b40ccd62cf6c"
     end
   end
 
@@ -28,12 +28,12 @@ cask "countdown" do
     on_intel do
       url "https://github.com/topfunky/countdown/releases/download/v#{version}/countdown_#{version}_linux_amd64.tar.gz",
         verified: "github.com/topfunky/countdown"
-      sha256 "707c5fe8614b3b49161c7c3796b87249003c6316cb0429cc418a6f1b1acc09d2"
+      sha256 "63f87abb7505e8aa300676da7f09043acb026efc9d24747d56e51a3e0d688b46"
     end
     on_arm do
       url "https://github.com/topfunky/countdown/releases/download/v#{version}/countdown_#{version}_linux_arm64.tar.gz",
         verified: "github.com/topfunky/countdown"
-      sha256 "2a184982f3a0e5ba918181fcd112df7ba2a8e44c3db0bf2426e4218a4ab16cf6"
+      sha256 "c22ced801a17b9fdd568f3156ff50cf908ccd766d404b016ae223a795c9dba7a"
     end
   end
 
