@@ -3,7 +3,7 @@ cask "tiny-timer" do
   name "tiny-timer"
   desc "A simple command-line Pomodoro timer with an animated progress bar"
   homepage "https://github.com/topfunky/tiny-timer"
-  version "0.0.6"
+  version "0.0.7"
 
   livecheck do
     skip "Auto-generated on release."
@@ -15,12 +15,12 @@ cask "tiny-timer" do
     on_intel do
       url "https://github.com/topfunky/tiny-timer/releases/download/v#{version}/tiny-timer_#{version}_darwin_amd64.tar.gz",
         verified: "github.com/topfunky/tiny-timer"
-      sha256 "3ab439506232340b39f54ced170fe1588a2326d864c3d21cccea3f778ada7f44"
+      sha256 "bc94cee467c270b170634981c13d96d31d1320f06aeac45e6ad229c0c72c1b2b"
     end
     on_arm do
       url "https://github.com/topfunky/tiny-timer/releases/download/v#{version}/tiny-timer_#{version}_darwin_arm64.tar.gz",
         verified: "github.com/topfunky/tiny-timer"
-      sha256 "456a1928bd919823b242ca3adaa5a47eae0d43150bb24bfc52249875d3a53e2d"
+      sha256 "e1e471c7efac91f2050ff4bb0690888922fe303813b79dda69fe052c0bf9e980"
     end
   end
 
@@ -28,12 +28,12 @@ cask "tiny-timer" do
     on_intel do
       url "https://github.com/topfunky/tiny-timer/releases/download/v#{version}/tiny-timer_#{version}_linux_amd64.tar.gz",
         verified: "github.com/topfunky/tiny-timer"
-      sha256 "4d2735293afca64994465a5dd517cfb082203813f2ba3eb450aaa2a2ffe8beac"
+      sha256 "0ad3f531a0d229db1e91da65c8f3fdd2065b6c7332dae1158af2c3b8f3496464"
     end
     on_arm do
       url "https://github.com/topfunky/tiny-timer/releases/download/v#{version}/tiny-timer_#{version}_linux_arm64.tar.gz",
         verified: "github.com/topfunky/tiny-timer"
-      sha256 "e071f73d3b1c00ac8d3c4cc56cb1cecebbb7bb705285805e43b39ff7cf8115a9"
+      sha256 "e0f0fb54938eb0c8e10cf9dc7acffe288ad0a5caeee8c095d26238063819cfed"
     end
   end
 
